@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2013 Yu AOKI -->
+<resources>
+
+    <string name="app_name">AndroidGoogleAuthSample</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="account_label">Account : </string>
+    <string name="token_label">Token : </string>
+    <string name="type_label">Type : </string>
+    <string name="auth_message">Auth</string>
+    <string name="invalidate_message">Invalidate</string>
+
+    <string name="token_type_calendar">Google Calendar</string>
+    <string name="token_type_mail">Gmail</string>
+    <string name="token_type_reader">Google Reader</string>
+</resources>

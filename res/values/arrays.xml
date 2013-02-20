@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2013 Yu AOKI -->
+<resources>
+    <string-array name="token_type_array">
+        <item>@string/token_type_calendar</item>
+        <item>@string/token_type_mail</item>
+        <item>@string/token_type_reader</item>
+    </string-array>
+</resources>
