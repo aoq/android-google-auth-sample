@@ -132,7 +132,9 @@ public class AuthActivity extends Activity
             fragment = ProgressDialogFragment.newInstance();
         }
 
-        fragment.show(manager, ProgressDialogFragment.TAG);
+        if (!fragment.isAdded()) {
+            fragment.show(manager, ProgressDialogFragment.TAG);
+        }
     }
 
     private void hideProgressDialog() {
