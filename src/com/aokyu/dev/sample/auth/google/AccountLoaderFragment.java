@@ -13,7 +13,6 @@ import android.app.Fragment;
 import android.app.LoaderManager;
 import android.content.Context;
 import android.content.Loader;
-import android.database.Cursor;
 import android.os.Bundle;
 
 public abstract class AccountLoaderFragment extends Fragment {
@@ -54,7 +53,7 @@ public abstract class AccountLoaderFragment extends Fragment {
     }
 
     protected void loadAccounts() {
-        Loader<Cursor> loader = mLoaderManager.getLoader(ID_ACCOUNT_LOADER);
+        Loader<List<Account>> loader = mLoaderManager.getLoader(ID_ACCOUNT_LOADER);
 
         Bundle args = new Bundle();
         if (loader != null) {
